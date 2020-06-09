@@ -38,7 +38,8 @@ def choice(prompt, choices=('y', 'n')):
 
 
 def get_filters():
-    """Ask user to specify city(ies) and filters, month(s) and weekday(s).
+    """
+    Ask user to specify city(ies) and filters, month(s) and weekday(s).
     Returns:
         (str) city -name of the city(ies) to analyze
         (str) month -name of the month(s) to filter
