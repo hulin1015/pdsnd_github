@@ -12,7 +12,9 @@ weekdays = ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday','sa
 
 
 def choice(prompt, choices=('y', 'n')):
-    """Return a valid input from the user given an array of possible answers.
+    """
+    Return a valid input from the user given an array of possible answers.
+
     """
 
     while True:
